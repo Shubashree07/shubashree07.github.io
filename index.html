@@ -1,39 +1,185 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Shubashree Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubashree | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    color:#cbd5e1;
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#38bdf8;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#334155;
+    padding:10px 15px;
+    border-radius:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+a{
+    color:#38bdf8;
+}
+</style>
 </head>
+
 <body>
+
+<header>
     <h1>Shubashree</h1>
-    <h3>Computer Science Engineering Student | Developer | Tech Enthusiast</h3>
+    <p>Computer Science Engineering Student | Developer | Tech Enthusiast</p>
 
+    <a class="btn" href="https://github.com/shubashree07" target="_blank">
+        View GitHub
+    </a>
+</header>
+
+<section>
     <h2>About Me</h2>
-    <p>
-        I am a Computer Science Engineering student at REVA University with a
-        passion for programming, web development, and technology.
-    </p>
+    <div class="card">
+        <p>
+            I am a Computer Science Engineering student at REVA University
+            passionate about programming, web development and technology.
+            I enjoy building projects and learning new technologies.
+        </p>
+    </div>
+</section>
 
+<section>
     <h2>Skills</h2>
-    <ul>
-        <li>C Programming</li>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>Data Structures</li>
-        <li>Pandas</li>
-    </ul>
 
+    <div class="skills">
+        <div class="skill">C Programming</div>
+        <div class="skill">Python</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Data Structures</div>
+        <div class="skill">Pandas</div>
+    </div>
+</section>
+
+<section>
     <h2>Projects</h2>
-    <ul>
-        <li>Subscription Trap</li>
-        <li>Student Management System</li>
-        <li>Portfolio Website</li>
-    </ul>
 
+    <div class="card">
+        <h3>Subscription Trap</h3>
+        <p>AI-powered subscription tracking and renewal management platform.</p>
+    </div>
+
+    <div class="card">
+        <h3>Student Management System</h3>
+        <p>A system to manage student records efficiently.</p>
+    </div>
+
+    <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio showcasing projects and skills.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>REVA University</h3>
+        <p>B.Tech - Computer Science Engineering</p>
+    </div>
+</section>
+
+<section>
     <h2>Contact</h2>
-    <p>Email: 25020102600@reva.edu.in</p>
-    <p>GitHub: shubashree07</p>
+
+    <div class="card">
+        <p>📧 Email:
+        <a href="mailto:25020102600@reva.edu.in">
+        25020102600@reva.edu.in
+        </a></p>
+
+        <br>
+
+        <p>💻 GitHub:
+        <a href="https://github.com/shubashree07" target="_blank">
+        github.com/shubashree07
+        </a></p>
+
+        <br>
+
+        <p>💼 LinkedIn:
+        <a href="https://www.linkedin.com/in/shuba-shree-g-j-745a22384/" target="_blank">
+        LinkedIn Profile
+        </a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Shubashree. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
+```
